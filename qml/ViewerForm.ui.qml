@@ -52,16 +52,20 @@ Item {
             }
             SpotInfo {
                 id: spotInfo
-                anchors.top: 5
-                anchors.right: 5
+                anchors.top: parent.top
+                anchors.right: parent.right
+                rightPadding: 5
+                topPadding: 5
                 width: 50
                 acq: acq
                 farenheitTemps: rangeDisplay.farenheitTemps
             }
             Image {
                 id: imageLogo
-                anchors.left: 5
-                anchors.top: 5
+                anchors.top: parent.top
+                anchors.left: parent.left
+                leftPadding: 5
+                topPadding: 5
                 height: 15
                 fillMode: Image.PreserveAspectFit
                 source: "/images/images/brand-logo.png"
