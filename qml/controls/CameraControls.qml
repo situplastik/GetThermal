@@ -13,28 +13,11 @@ Pane {
     width: 220
     height: 480
 
-    rightPadding: 5
-    topPadding: 12
-    bottomPadding: 12
-    leftPadding: 12
+    rightPadding: 0
+    topPadding: 0
+    bottomPadding: 0
+    leftPadding: 0
     padding: 0
-
-    Image {
-        id: imageLogo
-        anchors.left: parent.left
-        anchors.top: parent.top
-        anchors.right: parent.right
-        height: 50
-        fillMode: Image.PreserveAspectFit
-        source: "/images/images/brand-logo.png"
-    }
-
-    Component {
-        id: bosonControls1
-        BosonTabs {
-            acq: root.acq
-        }
-    }
 
     Loader {
         id: controls
@@ -43,17 +26,6 @@ Pane {
         anchors.left: parent.left
         anchors.right: parent.right
         anchors.bottom: parent.bottom
-    }
-
-    onAcqChanged: {
-        if (acq.cci.objectName === "LeptonVariation")
-        {
-            controls.sourceComponent = leptonControls1;
-        }
-        else if (acq.cci.objectName === "BosonVariation")
-        {
-            controls.sourceComponent = bosonControls1;
-        }
     }
 
 }
