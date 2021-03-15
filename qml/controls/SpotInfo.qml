@@ -10,8 +10,8 @@ Item {
     property bool farenheitTemps: false
     property bool radiometryLowGain: acq.cci.radTLinearResolution == LEP_RAD_TLINEAR_RESOLUTION_E.LEP_RAD_RESOLUTION_0_1
 
-    width: 160
-    height: 60
+    width: 100
+    height: 40
 
     function ktof(val) {
       return (1.8 * ktoc(val) + 32.0);
@@ -37,6 +37,7 @@ Item {
     GroupBox {
         id: groupBox
         anchors.fill: parent
+        anchors.background: parent
 
         Label {
             id: labelSpot
