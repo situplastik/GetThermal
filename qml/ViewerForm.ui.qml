@@ -58,7 +58,14 @@ Item {
                 acq: acq
                 farenheitTemps: rangeDisplay.farenheitTemps
             }
-
+            Image {
+                id: imageLogo
+                anchors.left: parent.left
+                anchors.top: parent.top
+                height: 30
+                fillMode: Image.PreserveAspectFit
+                source: "/images/images/brand-logo.png"
+            }
         }
 
     }
