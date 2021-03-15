@@ -37,7 +37,6 @@ Item {
     GroupBox {
         id: groupBox
         anchors.fill: parent
-        anchors.background: parent
 
         Label {
             id: labelSpot
