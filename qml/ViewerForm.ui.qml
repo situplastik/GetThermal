@@ -54,8 +54,6 @@ Item {
                 id: spotInfo
                 anchors.top: parent.top
                 anchors.right: parent.right
-                rightPadding: 5
-                topPadding: 5
                 width: 50
                 acq: acq
                 farenheitTemps: rangeDisplay.farenheitTemps
@@ -64,8 +62,6 @@ Item {
                 id: imageLogo
                 anchors.top: parent.top
                 anchors.left: parent.left
-                leftPadding: 5
-                topPadding: 5
                 height: 15
                 fillMode: Image.PreserveAspectFit
                 source: "/images/images/brand-logo.png"
