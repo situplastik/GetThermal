@@ -30,13 +30,6 @@ Pane {
     }
 
     Component {
-        id: leptonControls1
-        LeptonTabs {
-            acq: root.acq
-        }
-    }
-
-    Component {
         id: bosonControls1
         BosonTabs {
             acq: root.acq
