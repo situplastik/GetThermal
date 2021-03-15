@@ -51,17 +51,6 @@ Item {
                     anchors.verticalCenter: parent.verticalCenter
                 }
             }
-        }
-
-
-
-
-        Pane {
-            width: 130
-            Layout.minimumWidth: 130
-            Layout.fillHeight: true
-            visible: acq.cci.supportsRadiometry
-
             SpotInfo {
                 id: spotInfo
                 anchors.top: parent.top
@@ -69,15 +58,6 @@ Item {
                 anchors.right: parent.right
                 acq: acq
                 farenheitTemps: rangeDisplay.farenheitTemps
-            }
-
-            RangeDisplay {
-                id: rangeDisplay
-                anchors.top: spotInfo.bottom
-                anchors.left: parent.left
-                anchors.right: parent.right
-                anchors.bottom: parent.bottom
-                acq: acq
             }
         }
 
