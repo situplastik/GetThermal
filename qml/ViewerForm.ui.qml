@@ -28,19 +28,14 @@ Item {
         spacing: 0
         anchors.fill: parent
 
-        CameraControls {
-            Layout.minimumWidth: 240
-            Layout.fillHeight: true
-            acq: acq
-        }
 
         Pane {
-            x: 220
+            x: 20
             width: 400
-            bottomPadding: 5
-            rightPadding: 5
-            leftPadding: 5
-            topPadding: 5
+            bottomPadding: 0
+            rightPadding: 0
+            leftPadding: 0
+            topPadding: 0
             Layout.fillWidth: true
             Layout.fillHeight: true
             VideoOutput {

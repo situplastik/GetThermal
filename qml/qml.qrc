@@ -6,7 +6,6 @@
         <file>qtquickcontrols2.conf</file>
         <file>boson/BosonTabs.qml</file>
         <file>boson/InfoControls.qml</file>
-        <file>controls/CameraControls.qml</file>
         <file>controls/RangeDisplay.qml</file>
         <file>controls/ValueSlider.qml</file>
         <file>lepton/AgcControls.qml</file>
