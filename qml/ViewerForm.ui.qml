@@ -45,7 +45,6 @@ Item {
                 source: player
                 VideoRoi {
                     id: radRoi
-                    visible: acq.cci.supportsRadiometry
                     acq: acq
                     anchors.horizontalCenter: parent.horizontalCenter
                     anchors.verticalCenter: parent.verticalCenter
