@@ -11,7 +11,7 @@ Item {
     property bool radiometryLowGain: acq.cci.radTLinearResolution == LEP_RAD_TLINEAR_RESOLUTION_E.LEP_RAD_RESOLUTION_0_1
 
     width: 100
-    height: 40
+    height: 30
 
     function ktof(val) {
       return (1.8 * ktoc(val) + 32.0);
