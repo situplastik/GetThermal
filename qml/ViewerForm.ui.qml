@@ -51,14 +51,6 @@ Item {
                     anchors.verticalCenter: parent.verticalCenter
                 }
             }
-            SpotInfo {
-                id: spotInfo
-                anchors.top: parent.top
-                anchors.left: parent.left
-                anchors.right: parent.right
-                acq: acq
-                farenheitTemps: rangeDisplay.farenheitTemps
-            }
         }
 
     }
