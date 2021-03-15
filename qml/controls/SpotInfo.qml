@@ -37,7 +37,7 @@ Item {
     GroupBox {
         id: groupBox
         anchors.fill: parent
-        title: qsTr("Spot Temp TEST")
+        title: qsTr("TEST")
 
         Label {
             id: labelSpot
