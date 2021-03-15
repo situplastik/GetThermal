@@ -28,12 +28,6 @@ Item {
         spacing: 0
         anchors.fill: parent
 
-        CameraControls {
-            Layout.minimumWidth: 240
-            Layout.fillHeight: true
-            acq: acq
-        }
-
         Pane {
             x: 0
             width: 400
