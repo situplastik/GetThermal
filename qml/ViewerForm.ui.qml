@@ -35,12 +35,12 @@ Item {
         }
 
         Pane {
-            x: 220
+            x: 0
             width: 400
-            bottomPadding: 5
-            rightPadding: 5
-            leftPadding: 5
-            topPadding: 5
+            bottomPadding: 0
+            rightPadding: 0
+            leftPadding: 0
+            topPadding: 0
             Layout.fillWidth: true
             Layout.fillHeight: true
             VideoOutput {
@@ -56,6 +56,15 @@ Item {
                     anchors.verticalCenter: parent.verticalCenter
                 }
             }
+            SpotInfo {
+                id: spotInfo
+                anchors.top: parent.top
+                anchors.left: parent.left
+                anchors.right: parent.right
+                acq: acq
+                farenheitTemps: rangeDisplay.farenheitTemps
+            }
+
         }
 
     }
