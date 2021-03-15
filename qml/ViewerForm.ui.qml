@@ -53,8 +53,8 @@ Item {
             SpotInfo {
                 id: spotInfo
                 anchors.top: parent.top
-                anchors.left: parent.left
                 anchors.right: parent.right
+                width: 100
                 acq: acq
                 farenheitTemps: rangeDisplay.farenheitTemps
             }
